@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisão</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="meu.css">
 
 <body>
     
@@ -12,7 +13,9 @@
         class="navbar navbar-expand-sm navbar-light bg-secondary bg-gradient"
     >
         <div class="container">
-            <a class="navbar-brand" href="index.html">Navbar</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="/img/icons/logo-android-svgrepo-com.svg" class="wave-animation" style="max-width: 35px" alt="android">
+              </a>
             <button
                 class="navbar-toggler d-lg-none"
                 type="button"
@@ -26,24 +29,31 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
+                    <li class="nav-item meu-menu">
                         <a class="nav-link active" href="index.html" aria-current="page"
                             >Início
                             <span class="visually-hidden">(current)</span></a
                         >
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item meu-menu">
                         <a class="nav-link" href="sobre.html">Sobre</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item meu-menu">
                         <a class="nav-link" href="servicos.html">Serviços</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item meu-menu">
                         <a class="nav-link" href="contato.html">Contato</a>
                     </li>
                 </ul>
+                <div class="d-flex align-items-center gap-2 meus-icones">
+                    <img src="/img/icons/profile.svg" alt="" style="max-width: 35px;">
+                    <img src="/img/icons/github.svg" alt="" style="max-width: 35px;">
+                    <img src="/img/icons/instagram.svg" alt="" style="max-width: 35px;">
+                    <img src="/img/icons/whatsapp.svg" alt="" style="max-width: 35px;">
+                </div>
             </div>
         </div>
+        
     </nav>
 
     <div class="container mt-3">
